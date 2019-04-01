@@ -30,3 +30,8 @@ for (var length = arr.length, i = length - 1; i >= 0; --i) {}
 
 
 
+/* CANVAS */
+/* Clearing */
+ctx.clearRect(0, 0, c.width, c.height);
+
+
