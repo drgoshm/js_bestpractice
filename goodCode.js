@@ -7,12 +7,10 @@ const str2 = ~~"15"; // String to Number
 
 
 /* BITWISE OPERATION */
-console.log(~15); // -16 = -n-1
-console.log(~~15); // 15
+~15; // -16 = -n-1
+~~15; // 15
 
-console.log(1553 / 10   | 0)  // 155
-console.log(1553 / 100  | 0)  // 15
-console.log(1553 / 1000 | 0)  // 1
+
 
 
 /* BOOLEANs */
@@ -49,6 +47,11 @@ float >> 0 //367
 float >>> 0 //367
 // nice looks - two bitwise NOT
 ~~float;
+
+1553 / 10   | 0  // 155
+1553 / 100  | 0 // 15
+1553 / 1000 | 0 // 1
+
 
 // Compute nearest lower power of 2 for n in [1, 2**31-1]:
 function nearestPowerOf2(n) {
