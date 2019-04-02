@@ -1,3 +1,38 @@
+/* TYPEs */
+
+const val = 1 + ""; // Number to String
+const str1 = +"15"; // String to Number
+const str2 = ~~"15"; // String to Number
+
+
+
+/* BITWISE OPERATION */
+console.log(~15); // -16 = -n-1
+console.log(~~15); // 15
+
+console.log(1553 / 10   | 0)  // 155
+console.log(1553 / 100  | 0)  // 15
+console.log(1553 / 1000 | 0)  // 1
+
+
+/* BOOLEANs */
+const true  = !0;
+const false = !1;
+const alsoFalse = !!0;
+
+
+/* ARRAYs */
+
+// instead slice(), splice() or pop()
+let array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+array.length = 4;
+ 
+
+
+/* MATH.pow(2, n) */
+var pow2 = 2 << (n - 1);
+
+
 /* MATH.round */
 var rounded = (0.5 + somenum) << 0;
 // or
@@ -12,7 +47,7 @@ float | 0 //367
 float << 0 //367
 float >> 0 //367
 float >>> 0 //367
-// nice looks
+// nice looks - two bitwise NOT
 ~~float;
 
 // Compute nearest lower power of 2 for n in [1, 2**31-1]:
